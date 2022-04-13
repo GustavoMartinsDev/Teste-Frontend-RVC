@@ -1,0 +1,136 @@
+.container {
+    height: 61px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: var(--backcolor);
+
+
+}
+
+.content {
+    height: 61px;
+    width: 1335px;
+    background: var(--blue);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+    .admtext,
+    .usertext,
+    .financeirotext,
+    .linkstext,
+    .titext,
+    .treinamentostext {
+        height: 15px;
+        font-style: normal;
+        font-size: 15px;
+        line-height: 17.58px;
+        font-weight: 300;
+        color: #fff;
+        text-align: center;
+    }
+
+    .admtext:hover,
+    .usertext:hover,
+    .financeirotext:hover,
+    .linkstext:hover,
+    .titext:hover,
+    .treinamentostext:hover {
+        text-decoration: underline;
+    }
+
+    .adm,
+    .user,
+    .financeiro,
+    .links,
+    .ti,
+    .treinamentos {
+        color: #fff
+    }
+}
+
+.adm {
+    margin: 20px 7px 21px 24px;
+}
+
+.admtext {
+    width: 111px;
+    margin: 21px 13px 25px 0px;
+}
+
+.user {
+    margin: 21px 7px 21px 18px;
+}
+
+.usertext {
+    width: 124px;
+    margin: 22px 7px 24px 0px;
+}
+
+.financeiro {
+    margin: 20px 7px 21px 18px;
+}
+
+.financeirotext {
+    width: 74px;
+    margin: 22px 7px 24px 0px;
+}
+
+.links {
+    margin: 20px 4px 21px 18px;
+}
+
+.linkstext {
+    width: 124px;
+    margin: 22px 0px 24px 0px;
+}
+
+.rh {
+    color: #2B9FBB;
+    margin: 21px 7px 25px 14px;
+    
+}
+
+.rhtext {
+    width: 35px;
+    height: 15px;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 17.58px;
+    font-weight: 300;
+    text-align: center;
+    color: #2B9FBB;
+    margin: 22px 14px 24px 0px;
+}
+.rhtext:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.ti {
+    margin: 20px 7px 21px 20px;
+}
+
+.titext {
+    width: 29px;
+    margin: 22px 13px 24px 0px;
+}
+
+.treinamentos {
+    margin: 20px 1px 21px 18px;
+}
+
+.treinamentostext {
+    width: 110px;
+    margin: 22px 280px 24px 0px;
+}
+
+hr {
+    width: 0px;
+    height: 44px;
+    margin: 0px 0px 0px 0px;
+}

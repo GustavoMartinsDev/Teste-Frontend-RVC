@@ -1,0 +1,178 @@
+.container {
+    height: 863px;
+    width: 100%;
+    background-color: var(--backcolor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+}
+
+.content {
+    height: 863px;
+    width: 1335px;
+
+    overflow: hidden;
+
+}
+
+.avaliacao {
+    height: 26px;
+    width: 367px;
+    margin: 0px 940px 0px 28px;
+    color: #6D6C6C;
+
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    height: 307px;
+    width: 1335px;
+    background: var(--white);
+    border-radius: 5px;
+    color: #6D6C6C;
+
+}
+
+.info {
+    width: 442px;
+    height: 49px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    margin: 21px 898px 3px 0px;
+
+    color: #6D6C6C;
+}
+
+.avaliadorprincipal {
+    height: 26px;
+    width: 367px;
+    font-size: 18px;
+    line-height: 21.09px;
+    font-weight: 400;
+}
+
+.avaliador {
+    height: 52px;
+    width: 720px;
+    background: #FFFFFF;
+    border: 0.5px solid #888888;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 21.09px;
+    font-weight: 400;
+    padding: 15px 0px 12px 12px;
+    color: #888;
+}
+
+
+.projetos {
+    align-self: flex-start;
+    height: 58px;
+    width: 1272px;
+    color: #22304E;
+    background: #FFFFFF;
+    border: 0.5px solid #888;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 21.09px;
+    font-weight: 400;
+    padding: 15px 0px 12px 12px;
+    
+}
+
+.tituloavaliador {
+    background: #FFFFFF;
+    border: 0.5px solid #888;
+    border-radius: 5px;
+}
+
+.titulotext {
+    height: 52px;
+    width: 525px;
+    font-size: 18px;
+    line-height: 21.09px;
+    font-weight: 400;
+    color: #888888;
+    padding: 15px 0px 12px 12px;
+}
+
+.cancel {
+    width: 157px;
+    height: 52px;
+    background-color: #A4A4A4;
+    color: var(--white);
+    border: 0.5px solid #22304E;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.09px;
+    margin: 0px 16px 37px 968px;
+}
+
+.cancel:hover {
+    cursor: pointer;
+    background-color: #757575;
+}
+
+.continue {
+    align-self: flex-end;
+    width: 157px;
+    height: 52px;
+    background-color: #22304E;
+    color: var(--white);
+    border: 0.5px solid #22304E;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.09px;
+    margin: 0px 37px 37px 0px;
+}
+
+.continue:hover {
+    cursor: pointer;
+    background-color: #172136;
+}
+
+h1 {
+    position: relative;
+    top: 21px;
+    left: 0px;
+    height: 49px;
+    width: 442px;
+}
+
+.primeirocampo {
+    margin: 18px 26px 30px 27px;
+}
+
+.segundocampo {
+    margin: 18px 37px 30px 0px
+}
+
+.terceirocampo {
+    margin: 0px 39px 35px 25px;
+}
+
+.chat {
+    height: 74px;
+    width: 74px;
+    display: flex;
+    align-items: center;
+
+    background: #FFFFFF;
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 40px;
+    margin: 364px 0px 0px 1241px;
+}
+
+.chat:hover {
+    background: rgb(243, 243, 243);
+}
+
+.chaticon {
+    color: #22304E;
+}
