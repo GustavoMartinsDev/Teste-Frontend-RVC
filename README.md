@@ -1,46 +1,54 @@
-# Getting Started with Create React App
+# Landing Page Feita conforme layout do figma.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Link do projeto no Figma: https://www.figma.com/file/QdRQ6TnXv0r9ik0XN8w2gk/Layout-RVC?node-id=0%3A1
 
-## Available Scripts
+Realizei o layout com base totalmente no figma 1440x1024px, assim não ocupando a tela inteira.
 
-In the project directory, you can run:
+Utilizei o Framework React usando Typescript para desenvolvimento deste projeto, assim utilizando o pré-processador Sass.
 
-### `npm start`
+Algumas informações.
+Quando clicar em qualquer dos itens abaixo ele redireciona para uma página, mas como não obtém mais páginas, então redireciona para a página com este formulário.
+-Logo
+-Administrativo
+-Cadastro Geral
+-Financeiro
+-Links Externos
+-RH
+-TI
+-Treinamentos
+-Cancelar
+-Continuar
+-Icone de chat ao final da Pagina.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+No ícone de e-mail no cabeçalho da página tem assim que clicar no mesmo, ele abre o e-mail de sua preferência com o campo de destinatário para o  "nelson.proenca@rvc.law" somente para demonstração da funcionalidade.
 
-### `npm test`
+Algumas funcionalidades de cores e sublinhado assim que o mouse passar por cima de algum botão ou link do menu também foram adicionados.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Segue abaixo Link do Projeto do FIGma e Link do projeto no GitHub com o projeto inteiro disponível.
 
-### `npm run build`
+Layout Layout proposto no Figma.
+Link:  https://www.figma.com/file/QdRQ6TnXv0r9ik0XN8w2gk/Layout-RVC?node-id=0%3A1
+![image](https://user-images.githubusercontent.com/98985125/163074647-e01d0546-f60d-4e77-a2f3-1b7162e2930a.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Layout realizado.
+Link do Github obtendo o Projeto pronto: https://github.com/GustavoMartinsDev/Teste-page-RVC
+![image](https://user-images.githubusercontent.com/98985125/163074547-19d1e24d-47d4-4bba-90d3-4089ff63eccb.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Para rodar o projeto basta fazer o Dowload do projeto .zip.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Abrir com o Visual Studio Code com a pasta do projeto.
+No terminal integrado do Visual Studio navegar até "cd rvc" e rodar os comandos abaixo.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- npm i (Faz o download de todas as dependências do projeto)
+- npm start (inicia o projeto localmente na porta 3000, assim basta você acessar o link http://localhost:3000 que o projeto será aberto para visualização do mesmo.)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Obrigado pela Visita, nós vemos em breve.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Atenciosamente,
+Gustavo Martins
